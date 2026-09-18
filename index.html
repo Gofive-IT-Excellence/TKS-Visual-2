@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TKS AI Visual Template Library</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="topbar">
+        <a class="brand" href="#" aria-label="INFINA home">
+          <img src="./assets/infina-logo.png" alt="INFINA" />
+        </a>
+
+        <nav class="top-actions" aria-label="Primary navigation">
+          <button class="nav-link" type="button" data-i18n="topExplore">
+            Library
+          </button>
+          <button class="nav-link" type="button" data-i18n="topLogin">
+            Sign in
+          </button>
+          <button class="join" type="button" data-i18n="topJoin">Join</button>
+          <button class="upload" type="button">
+            <span class="upload-icon" aria-hidden="true"></span>
+            <span data-i18n="topUpload">Upload</span>
+          </button>
+          <div class="language-toggle" aria-label="Language">
+            <button class="lang-option active" type="button" data-lang="en">EN</button>
+            <button class="lang-option" type="button" data-lang="th">TH</button>
+          </div>
+        </nav>
+      </header>
+
+      <section class="hero-wrap" aria-label="Template library search">
+        <div class="hero">
+          <video class="hero-video is-active" muted playsinline loop preload="metadata" aria-hidden="true"></video>
+          <video class="hero-video" muted playsinline loop preload="metadata" aria-hidden="true"></video>
+
+          <div class="hero-inner">
+            <h1 data-i18n="heroTitle">TKS AI Visual Template Library</h1>
+
+            <div class="menu-strip" id="main-menu" aria-label="Main menu"></div>
+
+            <label class="search-row">
+              <span class="search-label" data-i18n="findLabel">Find</span>
+              <input class="search-input" id="search" aria-label="Find template" />
+            </label>
+
+            <div class="sub-menu" id="sub-menu" aria-label="Template categories"></div>
+          </div>
+
+          <div class="hero-credit">
+            <img src="./assets/avatar.jpg" alt="" />
+            <span>
+              <span class="credit-name">PINFINA Studio</span>
+              <span class="credit-sub" data-i18n="featured">Featured Template</span>
+            </span>
+          </div>
+
+          <div class="slider-dots" aria-hidden="true"></div>
+
+          <p class="license" data-i18n="guideText">Read more about the Template Guide</p>
+        </div>
+      </section>
+
+      <section class="main-home" id="main-home" aria-label="Main menu homepage">
+        <section class="home-section asset-overview" aria-labelledby="asset-overview-title">
+          <h2 id="asset-overview-title" data-i18n="assetOverviewTitle">Template assets for every project</h2>
+          <div class="home-asset-grid" id="home-asset-grid"></div>
+        </section>
+
+        <section class="home-section visual-gallery" aria-labelledby="visual-gallery-title">
+          <h2 id="visual-gallery-title" data-i18n="visualGalleryTitle">
+            Explore high quality AI visual templates curated for every team.
+          </h2>
+          <div class="home-masonry" id="home-masonry"></div>
+          <button class="load-more" type="button" data-i18n="loadMore">Explore more templates</button>
+        </section>
+
+        <section class="home-section collection-section" aria-labelledby="collection-title">
+          <div class="section-row">
+            <h2 id="collection-title" data-i18n="collectionTitle">Curated collections and template packs</h2>
+            <div class="collection-tabs" aria-label="Collection modes">
+              <button class="collection-tab active" type="button" data-i18n="collectionTabOne">Collections</button>
+              <button class="collection-tab" type="button" data-i18n="collectionTabTwo">Template Sets</button>
+            </div>
+          </div>
+          <div class="collection-grid" id="collection-grid"></div>
+        </section>
+
+        <section class="home-section article-section" aria-labelledby="article-title">
+          <div class="section-row">
+            <h2 id="article-title" data-i18n="articleTitle">What's new in the TKS AI library?</h2>
+            <button class="view-all" type="button" data-i18n="viewAll">View all</button>
+          </div>
+          <div class="article-grid" id="article-grid"></div>
+        </section>
+
+        <section class="home-section cta-section" aria-label="Quick actions">
+          <div class="cta-card">
+            <span class="cta-icon">01</span>
+            <h3 data-i18n="ctaOneTitle">Browse ready-made templates</h3>
+            <p data-i18n="ctaOneText">Start from curated visuals for presentations, internal updates, and operations.</p>
+            <button type="button" data-i18n="ctaOneButton">See all templates</button>
+          </div>
+          <div class="cta-card">
+            <span class="cta-icon">02</span>
+            <h3 data-i18n="ctaTwoTitle">Create faster with AI prompts</h3>
+            <p data-i18n="ctaTwoText">Use template directions as a starting point for your team's visual workflow.</p>
+            <button type="button" data-i18n="ctaTwoButton">Open guide</button>
+          </div>
+          <div class="cta-card accent">
+            <span class="cta-icon">03</span>
+            <h3 data-i18n="ctaThreeTitle">Upload your own template</h3>
+            <p data-i18n="ctaThreeText">Add internal assets and keep them searchable for everyone in your team.</p>
+            <button type="button" data-i18n="ctaThreeButton">Upload</button>
+          </div>
+        </section>
+      </section>
+
+      <section class="template-workspace" id="template-workspace" aria-labelledby="active-title">
+        <div class="browse-status">
+          <h1 id="active-title">Business</h1>
+          <p id="active-subtitle">Presentation Slides</p>
+        </div>
+
+        <div class="browse-grid" id="template-grid"></div>
+
+        <button class="load-more browse-more" type="button" data-i18n="loadMore">Explore more templates</button>
+
+        <div class="browse-collections-head">
+          <h2 data-i18n="curatedByTitle">Curated collections</h2>
+          <button class="view-all" id="open-collections" type="button" data-i18n="viewAllCollections">
+            View all collections
+          </button>
+        </div>
+
+        <div class="featured-collection-grid" id="featured-collection-grid"></div>
+      </section>
+
+      <section class="collection-browser" id="collection-browser" aria-labelledby="collection-browser-title" hidden>
+        <div class="collection-browser-head">
+          <button class="back-button" id="back-from-collections" type="button" data-i18n="backToBusiness">
+            Back to Business
+          </button>
+          <h1 id="collection-browser-title" data-i18n="allCollectionsTitle">Curated collections</h1>
+          <p data-i18n="allCollectionsBy">by INFINA</p>
+        </div>
+
+        <div class="collection-browser-grid" id="collection-browser-grid"></div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="footer-brand">
+          <img src="./assets/infina-logo.png" alt="INFINA" />
+          <p data-i18n="footerText">A visual template library for TKS AI teams.</p>
+        </div>
+        <div class="footer-columns">
+          <div>
+            <h3 data-i18n="footerFind">Find</h3>
+            <a href="#" data-i18n="footerEditors">Editor's Choice</a>
+            <a href="#" data-i18n="footerCollections">Collections</a>
+            <a href="#" data-i18n="footerTemplates">Templates</a>
+          </div>
+          <div>
+            <h3 data-i18n="footerCommunity">Community</h3>
+            <a href="#" data-i18n="footerCreators">Creators</a>
+            <a href="#" data-i18n="footerAmbassador">Ambassador</a>
+            <a href="#" data-i18n="footerForum">Forum</a>
+          </div>
+          <div>
+            <h3 data-i18n="footerAbout">About</h3>
+            <a href="#" data-i18n="footerHelp">Help Center</a>
+            <a href="#" data-i18n="footerTerms">Terms</a>
+            <a href="#" data-i18n="footerPolicy">Policy</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./assets/logo-downloads.js?v=20260918c"></script>
+    <script src="./assets/template-downloads.js?v=20260918c"></script>
+    <script src="./assets/preview-downloads.js?v=20260918c"></script>
+    <script src="./script.js?v=20260918c"></script>
+  </body>
+</html>
