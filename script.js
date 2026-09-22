@@ -178,7 +178,12 @@ const imagePool = Array.from({ length: 24 }, (_, index) => {
   return `./template-${number}.jpg`;
 });
 
-const heroVideoAssets = [];
+const heroVideoAssets = [
+  { src: "./ferris-wheel.mov", tone: "warm" },
+  { src: "./neon-fern.mov", tone: "magenta" },
+  { src: "./green-fern.mov", tone: "forest" },
+  { src: "./sea-blue.mov", tone: "ocean" },
+];
 
 const logoItems = [
   { id: "tks-logo-2", title: "TKS Logo 2", image: "./tks-logo-2.png", fileName: "tks-logo-2.png" },
