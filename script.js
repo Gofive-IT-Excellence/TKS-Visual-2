@@ -329,6 +329,193 @@ const businessPresentationTemplates = [
     image: "./business-presentation-05.jpg",
     prompt: templatePromptBase,
   },
+  {
+    id: "business-presentation-test-06",
+    code: "TPL-006",
+    titleEn: "Executive Copy Space",
+    titleTh: "ผู้บริหารพร้อมพื้นที่ข้อความ",
+    image: "./business-presentation-06.jpg",
+    prompt: `Create a 16:9 corporate presentation slide background featuring a cropped Asian businessman in a dark suit standing with crossed arms on the left side, with a softly blurred modern office interior extending across the frame.
+Keep the right 55% as clean copy space for headline and body text, with no important objects or faces in that area. Use shallow depth of field, bright window light, subtle lens glow, and a polished professional atmosphere.
+Style: realistic corporate stock photo, premium business presentation cover, calm confident mood, cool gray-blue office tones with warm highlights, high-quality raster image.
+Avoid: readable text, logos, watermarks, busy patterns, direct full-face portrait, harsh contrast, cartoon style, clutter in the copy space.`,
+  },
+  {
+    id: "business-presentation-test-07",
+    code: "TPL-007",
+    titleEn: "Partnership Handshake",
+    titleTh: "จับมือพาร์ตเนอร์ธุรกิจ",
+    image: "./business-presentation-07.jpg",
+    prompt: `Create a 16:9 business partnership presentation background showing two professionals shaking hands in a bright office, with a subtle double-exposure city skyline and soft corporate light leaks.
+Place the handshake as the main focal point slightly left of center, while leaving soft negative space around the upper-right and lower-right areas for presentation text. The scene should feel trustworthy, collaborative, and suitable for partnership or agreement topics.
+Style: premium corporate photography, airy modern office, soft pastel blue and magenta highlights, realistic depth of field, elegant business mood.
+Avoid: logos, readable text, watermarks, crowded meeting room, exaggerated effects, distorted hands, overly saturated colors.`,
+  },
+  {
+    id: "business-presentation-test-08",
+    code: "TPL-008",
+    titleEn: "Confident Executive Portrait",
+    titleTh: "พอร์ตเทรตผู้บริหารมั่นใจ",
+    image: "./business-presentation-08.jpg",
+    prompt: `Create a 16:9 corporate slide background with a cropped executive in a black suit and tie standing confidently with crossed arms on the right side against a clean blue-gray studio background.
+Reserve the left 55% as uncluttered negative space for a title, subtitle, and key message. Keep the executive cropped below the nose to avoid a full face while preserving a professional leadership tone.
+Style: clean executive portrait, premium corporate presentation, minimal studio lighting, cool neutral palette, crisp suit detail, high-quality realistic photo.
+Avoid: logos, text, watermarks, full facial portrait, busy office background, harsh shadows, cartoon or illustration style.`,
+  },
+  {
+    id: "business-presentation-test-09",
+    code: "TPL-009",
+    titleEn: "Mobile Business Brief",
+    titleTh: "บรีฟธุรกิจบนมือถือ",
+    image: "./business-presentation-09.jpg",
+    prompt: `Create a 16:9 corporate presentation background showing a cropped businessman in a dark suit holding a smartphone on the right side, with a softly blurred modern office lobby in cool blue tones.
+Leave the left 60% mostly empty and softly lit for slide title and content. The composition should communicate mobile business, executive updates, digital workflow, and professional decision-making.
+Style: realistic corporate photography, clean glass office, cool blue daylight, shallow depth of field, premium calm tone.
+Avoid: readable phone screen content, logos, watermarks, full face, clutter, strong reflections, neon sci-fi elements.`,
+  },
+  {
+    id: "business-presentation-test-10",
+    code: "TPL-010",
+    titleEn: "Growth Chart Touch",
+    titleTh: "แตะกราฟการเติบโต",
+    image: "./business-presentation-10.jpg",
+    prompt: `Create a 16:9 business growth presentation background featuring a close-up of a businessperson touching a glowing upward line graph, with translucent blue arrows rising across the foreground.
+Keep the composition dynamic but clean, with room for text in the upper-left or lower-left area. The visual should suggest positive performance, KPI growth, market momentum, and strategic progress.
+Style: realistic corporate technology photo composite, cool blue financial palette, soft glow, polished executive presentation look.
+Avoid: readable numbers, logos, watermarks, overly busy charts, harsh neon, distorted finger anatomy, cartoon style.`,
+  },
+  {
+    id: "business-presentation-test-11",
+    code: "TPL-011",
+    titleEn: "Future Growth Strategy",
+    titleTh: "กลยุทธ์การเติบโตในอนาคต",
+    image: "./business-presentation-11.jpg",
+    prompt: `Create a 16:9 corporate strategy slide background with a blurred business executive touching a bright upward arrow, surrounded by semi-transparent growth arrows across a deep blue gradient.
+Place the brightest focal arrow on the right side and keep the left side darker and calmer for title text. The mood should communicate ambition, business expansion, target achievement, and future growth.
+Style: premium business technology composite, cinematic blue lighting, soft bokeh, realistic suit detail, modern presentation background.
+Avoid: readable text, logos, watermarks, cluttered data, exaggerated holograms, heavy contrast, cartoon visuals.`,
+  },
+  {
+    id: "business-presentation-test-12",
+    code: "TPL-012",
+    titleEn: "Digital Workflow Loading",
+    titleTh: "เวิร์กโฟลว์ดิจิทัล",
+    image: "./business-presentation-12.jpg",
+    prompt: `Create a 16:9 digital transformation presentation background showing a cropped businessman holding a smartphone, with translucent interface overlays, network graphics, people icons, and soft progress-style visual elements.
+Keep the design clean enough for slide text, with a light open area on the right and upper center. The concept should feel like digital workflow, innovation, mobile operations, and connected business systems.
+Style: realistic corporate photo composite, blue and warm gold highlights, glassmorphism overlays, polished modern enterprise look.
+Avoid: readable placeholder text, brand logos, watermarks, cluttered UI, excessive sci-fi effects, distorted phone or hands.`,
+  },
+  {
+    id: "business-presentation-test-13",
+    code: "TPL-013",
+    titleEn: "Urban Business Technology",
+    titleTh: "ธุรกิจเทคโนโลยีเมือง",
+    image: "./business-presentation-13.jpg",
+    prompt: `Create a 16:9 corporate presentation background featuring a suited businessperson holding an open laptop, blended with a modern city skyline and glass high-rise buildings through a clean double-exposure effect.
+Keep the center and upper-right bright and airy, suitable for title overlays, while preserving a premium urban business atmosphere. The concept should communicate enterprise technology, investment, smart city, and executive planning.
+Style: realistic double-exposure corporate photography, cool blue city palette, bright daylight, polished and aspirational.
+Avoid: logos, readable text, watermarks, crowded streets, full face detail, dark heavy contrast, cartoon or vector style.`,
+  },
+  {
+    id: "business-presentation-test-14",
+    code: "TPL-014",
+    titleEn: "Interactive Business Panel",
+    titleTh: "แผงข้อมูลธุรกิจแบบอินเทอร์แอคทีฟ",
+    image: "./business-presentation-14.jpg",
+    prompt: `Create a 16:9 business presentation background with a cropped businesswoman on the right touching a transparent horizontal interface panel, against a soft blue city blur.
+Reserve the left 60% as clean layered blue copy space for slide text. The composition should feel modern, interactive, strategic, and suitable for digital service or management topics.
+Style: realistic corporate photo composite, translucent glass UI bands, soft blue gradient, minimal clean business aesthetic.
+Avoid: readable text, logos, watermarks, cluttered dashboards, full face, overly bright highlights, cartoon style.`,
+  },
+  {
+    id: "business-presentation-test-15",
+    code: "TPL-015",
+    titleEn: "Digital Marketing Growth",
+    titleTh: "การตลาดดิจิทัลและการเติบโต",
+    image: "./business-presentation-15.jpg",
+    prompt: `Create a 16:9 digital marketing and business growth presentation background showing a cropped executive touching a glowing digital button, with network lines, bar charts, and upward arrows in a blue technology environment.
+Keep the right side and upper areas clean enough for slide text, while the touch point remains the main visual anchor. The scene should communicate online commerce, promotion, analytics, and scalable digital services.
+Style: premium corporate technology photo composite, clean blue palette, subtle glow, modern enterprise presentation look.
+Avoid: readable labels, logos, watermarks, cluttered icons, extreme neon, distorted hands, cartoon illustration.`,
+  },
+  {
+    id: "business-presentation-test-16",
+    code: "TPL-016",
+    titleEn: "ESG Governance Concept",
+    titleTh: "แนวคิด ESG และธรรมาภิบาล",
+    image: "./business-presentation-16.jpg",
+    prompt: `Create a 16:9 ESG presentation background with large clean ESG lettering and connected icons representing environment, social responsibility, and governance on a dark navy background.
+Use glowing cyan-to-blue linework, balanced spacing, and a centered professional infographic composition suitable for sustainability reports, board decks, and corporate governance slides.
+Style: modern vector-style business graphic rendered as a high-quality raster image, crisp icons, dark premium palette, clean corporate technology feel.
+Avoid: extra text beyond ESG, logos, watermarks, clutter, complex charts, low contrast, childish icon style.`,
+  },
+  {
+    id: "business-presentation-test-17",
+    code: "TPL-017",
+    titleEn: "Investment Management",
+    titleTh: "การบริหารกองทุนและการลงทุน",
+    image: "./business-presentation-17.jpg",
+    prompt: `Create a 16:9 investment management presentation background featuring a suited businessperson holding a laptop, blended with a pale city skyline and faint financial chart overlays.
+Keep the right half soft, bright, and low-detail for title and body copy. The image should communicate fund management, market analysis, portfolio review, and financial strategy.
+Style: realistic corporate double exposure, light blue financial palette, premium soft daylight, clean executive presentation tone.
+Avoid: readable numbers, logos, watermarks, sharp busy charts, full face, heavy dark contrast, exaggerated holograms.`,
+  },
+  {
+    id: "business-presentation-test-18",
+    code: "TPL-018",
+    titleEn: "Financial Indicator Touch",
+    titleTh: "แตะตัวชี้วัดการเงิน",
+    image: "./business-presentation-18.jpg",
+    prompt: `Create a 16:9 financial analysis presentation background showing a close-up of a businessperson touching a glowing upward curve, with subtle bar charts in the lower area and a calm teal-blue background.
+Leave the left side spacious and clean for slide text, while the glowing fingertip and rising curve communicate performance improvement, accounting indicators, and market analysis.
+Style: realistic corporate finance photo composite, refined blue and teal tones, soft glow, premium professional look.
+Avoid: readable numbers, logos, watermarks, crowded graphs, distorted hand anatomy, harsh neon, cartoon effects.`,
+  },
+  {
+    id: "business-presentation-test-19",
+    code: "TPL-019",
+    titleEn: "Business Solution Interface",
+    titleTh: "อินเทอร์เฟซ Business Solution",
+    image: "./business-presentation-19.jpg",
+    prompt: `Create a 16:9 corporate business solution slide background with a cropped executive pressing a transparent blue interface panel across the center.
+Use layered translucent horizontal bands, a clean blue gradient, and a professional enterprise atmosphere. Keep the design suitable for solution overview, consulting, HR systems, or digital transformation presentations.
+Style: realistic business photo composite, glass UI panel, clean corporate blue palette, polished presentation cover.
+Avoid: excessive text, logos, watermarks, cluttered dashboard elements, full face, harsh contrast, cartoon style.`,
+  },
+  {
+    id: "business-presentation-test-20",
+    code: "TPL-020",
+    titleEn: "Executive Agreement",
+    titleTh: "ข้อตกลงผู้บริหาร",
+    image: "./business-presentation-20.jpg",
+    prompt: `Create a 16:9 executive agreement presentation background showing two businesspeople shaking hands near a large office window, with warm sunset light and a softly blurred city view.
+Keep the upper-left and center-left areas calm enough for presentation text. The image should communicate trust, successful negotiation, partnership, and executive-level collaboration.
+Style: realistic corporate photography, warm golden backlight, refined office atmosphere, soft depth of field, premium professional mood.
+Avoid: logos, readable text, watermarks, full faces, crowded room, overly dramatic flare, cartoon style.`,
+  },
+  {
+    id: "business-presentation-test-21",
+    code: "TPL-021",
+    titleEn: "Target Achievement",
+    titleTh: "เป้าหมายและความสำเร็จ",
+    image: "./business-presentation-21.jpg",
+    prompt: `Create a 16:9 business target achievement presentation background showing a cropped executive touching a glowing target icon, with translucent upward arrows rising across a clean blue background.
+Keep the left side and lower-left area open for title and supporting text. The concept should suggest clear goals, measurable growth, KPI success, and strategic focus.
+Style: modern corporate technology photo composite, bright blue palette, clean glow, polished enterprise presentation design.
+Avoid: readable labels, logos, watermarks, cluttered charts, distorted finger, excessive neon, cartoon look.`,
+  },
+  {
+    id: "business-presentation-test-22",
+    code: "TPL-022",
+    titleEn: "Modern Office Handshake",
+    titleTh: "จับมือในออฟฟิศโมเดิร์น",
+    image: "./business-presentation-22.jpg",
+    prompt: `Create a 16:9 modern office handshake presentation background with two professionals in suits shaking hands in close-up, warm daylight entering from the side, and a softly blurred office interior behind them.
+Keep the upper-left and lower-left areas softly lit and usable for headline text. The mood should be optimistic, professional, and suitable for partnership, sales closing, client success, and business agreement slides.
+Style: realistic premium corporate photography, warm natural light, shallow depth of field, refined business atmosphere.
+Avoid: logos, watermarks, readable text, crowded background, awkward hands, harsh contrast, cartoon or illustration style.`,
+  },
 ];
 
 const corporatePhotoTemplates = [
@@ -355,6 +542,14 @@ const corporatePhotoTemplates = [
     titleTh: "ภาพป้ายอาคาร TKS",
     image: "./corporate-photo-tks-building-03.jpg",
     fileName: "corporate-photo-tks-building-03.jpg",
+  },
+  {
+    id: "corporate-photo-tks-building-04",
+    code: "CPH-004",
+    titleEn: "TKS Building Aerial View",
+    titleTh: "ภาพมุมสูงอาคาร TKS",
+    image: "./corporate-photo-tks-building-04.jpg",
+    fileName: "corporate-photo-tks-building-04.jpg",
   },
 ];
 
@@ -890,7 +1085,9 @@ function makeTemplates() {
   const visible = query
     ? all.filter((item) => `${item.title} ${item.menu} ${item.category}`.toLowerCase().includes(query))
     : all;
-  const shouldShowAll = state.main === "corporate" && state.sub === "productBusiness";
+  const shouldShowAll =
+    (state.main === "business" && state.sub === "presentation") ||
+    (state.main === "corporate" && state.sub === "productBusiness");
 
   return shouldShowAll ? visible : visible.slice(0, 12);
 }
@@ -1487,6 +1684,12 @@ function renderTemplateDownloadDetail(item) {
   const detail = document.createElement("article");
   detail.className = "logo-preview";
   const isExecutivePhoto = item.subId === "boardExecutives";
+  const previewStageClass = [
+    "logo-preview-stage",
+    "template-download-stage",
+    isExecutivePhoto ? "executive-preview-stage" : "",
+    item.id ? `preview-${item.id}` : "",
+  ].filter(Boolean).join(" ");
   detail.innerHTML = `
     <div class="logo-preview-toolbar">
       <button class="back-button template-download-back" type="button">${
@@ -1499,7 +1702,7 @@ function renderTemplateDownloadDetail(item) {
         ${state.lang === "th" ? "ดาวน์โหลด" : "Download"}
       </a>
     </div>
-    <div class="logo-preview-stage template-download-stage${isExecutivePhoto ? " executive-preview-stage" : ""}">
+    <div class="${previewStageClass}">
       <img src="${item.image}" alt="${item.title}" />
     </div>
   `;

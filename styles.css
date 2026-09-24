@@ -61,7 +61,7 @@ button {
 }
 
 .topbar {
-  height: 74px;
+  height: 98px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -74,8 +74,8 @@ button {
 }
 
 .brand img {
-  width: 168px;
-  max-height: 42px;
+  width: 269px;
+  max-height: 67px;
   object-fit: contain;
   display: block;
 }
@@ -467,7 +467,7 @@ button {
 }
 
 .template-workspace {
-  width: min(1940px, calc(100vw - 96px));
+  width: min(1360px, calc(100vw - 96px));
   margin: 76px auto 118px;
 }
 
@@ -837,7 +837,7 @@ button {
 }
 
 .footer-brand img {
-  width: 132px;
+  width: 150px;
   max-height: 34px;
   object-fit: contain;
 }
@@ -908,9 +908,9 @@ button {
 
 .browse-grid {
   display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 30px 32px;
-  align-items: stretch;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px 28px;
+  align-items: start;
 }
 
 .browse-grid.board-executive-grid {
@@ -924,7 +924,7 @@ button {
   padding: 0;
   overflow: hidden;
   background: transparent;
-  border-radius: 10px;
+  border-radius: 0;
   transition: transform 160ms ease, box-shadow 160ms ease, filter 160ms ease;
 }
 
@@ -941,7 +941,7 @@ button {
 }
 
 .board-executive-card {
-  width: 70%;
+  width: 100%;
   aspect-ratio: auto;
   justify-self: center;
   display: flex;
@@ -953,11 +953,11 @@ button {
 }
 
 .board-executive-card img {
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1740 / 2595;
   height: auto;
-  border-radius: 10px;
+  border-radius: 0;
   background: #fff;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center top;
 }
 
@@ -1208,7 +1208,7 @@ button {
 }
 
 .logo-grid {
-  gap: 30px 32px;
+  gap: 34px 28px;
 }
 
 .logo-card {
@@ -1227,7 +1227,7 @@ button {
   justify-content: center;
   padding: 34px;
   border: 1px solid #e6e8ec;
-  border-radius: 10px;
+  border-radius: 0;
   background: #fff;
   box-shadow: 0 8px 24px rgba(20, 23, 31, 0.04);
   overflow: hidden;
@@ -1342,9 +1342,9 @@ button {
 }
 
 .executive-preview-stage {
-  width: min(520px, 100%);
+  width: min(416px, 100%);
   height: auto;
-  aspect-ratio: 3 / 4;
+  aspect-ratio: 1740 / 2595;
   min-height: 0;
   align-items: flex-start;
   justify-content: center;
@@ -1424,7 +1424,7 @@ button {
 }
 
 .collection-browser {
-  width: min(1130px, calc(100vw - 92px));
+  width: min(1360px, calc(100vw - 96px));
   margin: 54px auto 130px;
 }
 
@@ -1461,8 +1461,8 @@ button {
 
 .collection-browser-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 34px 26px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 34px 28px;
 }
 
 .collection-browser-card {
@@ -1470,7 +1470,7 @@ button {
   border: 0;
   padding: 0;
   background: #f4f5f6;
-  border-radius: 10px;
+  border-radius: 0;
   overflow: hidden;
   text-align: center;
   transition: transform 160ms ease, box-shadow 160ms ease;
@@ -1481,6 +1481,7 @@ button {
   aspect-ratio: 1.55 / 1;
   display: block;
   object-fit: cover;
+  border-radius: 0;
 }
 
 .collection-browser-card span {
@@ -1550,7 +1551,7 @@ button {
   }
 
   .browse-grid {
-    gap: 20px;
+    gap: 28px 20px;
   }
 
   .template-detail {
@@ -1581,7 +1582,7 @@ button {
   }
 
   .collection-browser-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 28px 20px;
   }
 
@@ -1603,7 +1604,7 @@ button {
 @media (max-width: 860px) {
   .topbar {
     height: auto;
-    min-height: 70px;
+    min-height: 92px;
     gap: 18px;
     align-items: flex-start;
     flex-direction: column;
@@ -1611,7 +1612,7 @@ button {
   }
 
   .brand img {
-    width: 145px;
+    width: 232px;
   }
 
   .top-actions {
@@ -1689,7 +1690,7 @@ button {
   }
 
   .browse-grid {
-    gap: 12px;
+    gap: 24px 16px;
   }
 
   .template-detail-title {
@@ -1721,7 +1722,7 @@ button {
   }
 
   .logo-grid {
-    gap: 18px 14px;
+    gap: 24px 16px;
   }
 
   .logo-card-media {
@@ -1797,6 +1798,12 @@ button {
   .collection-browser-grid,
   .home-masonry {
     grid-template-columns: 1fr;
+  }
+
+  .browse-grid,
+  .collection-browser-grid,
+  .logo-grid {
+    gap: 22px;
   }
 
   .browse-status h1 {
